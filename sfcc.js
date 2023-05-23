@@ -1,4 +1,4 @@
-import { Customer, Product, Search } from 'commerce-sdk'
+ import { Customer, Product, Search } from 'commerce-sdk'
 
 export default async function getProducts(searchQuery) {
   const clientConfig = {
@@ -55,3 +55,4 @@ export default async function getProducts(searchQuery) {
 
   return results
 }
+ 

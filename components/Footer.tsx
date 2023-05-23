@@ -1,14 +1,49 @@
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <footer className="center mt-5 flex justify-center space-x-4 bg-[#E7E8EF] p-4 text-xs">
-      <p>Powered by Next.js, Salesforce Commerce Cloud, and Vercel </p>
+      <p>Veja nossas redes socias para mais dicas</p>
       <span>|</span>
-      <a
-        href="https://github.com/vercel/next.js/tree/canary/examples/with-sfcc"
-        className="font-medium text-orange-600"
-      >
-        Source code
-      </a>
+
+      {social &&
+        social.map((social) => (
+          <a href={social.href} className={social.className} target="_blank">
+            <Image
+              alt={social.alt}
+              src={social.src}
+              width={social.width}
+              height={social.height}
+            />
+          </a>
+        ))}
     </footer>
-  )
+  );
 }
+
+const social = [
+  {
+    href: "https://www.instagram.com/recantec/",
+    className: "font-medium text-orange-600",
+    alt: "instagram",
+    src: "https://cdn-icons-png.flaticon.com/512/174/174855.png",
+    width: 18,
+    height: 18,
+  },
+  {
+    href: "https://www.tiktok.com/@recantotecnologic",
+    className: "font-medium text-orange-600",
+    alt: "tiktok",
+    src: "https://cdn-icons-png.flaticon.com/512/3046/3046125.png",
+    width: 18,
+    height: 18,
+  },
+  {
+    href: "https://www.youtube.com/@RecantoTecnologico",
+    className: "font-medium text-orange-600",
+    alt: "youtube",
+    src: "https://cdn-icons-png.flaticon.com/512/3128/3128307.png",
+    width: 18,
+    height: 18,
+  },
+];
