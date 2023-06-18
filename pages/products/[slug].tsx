@@ -129,7 +129,7 @@ const product = [
   name: "Óleo Capilar de Rícino Ouribel 100ml",
   price: 12,
   shortDescription: "Óleo Capilar de Rícino ",
-  image: "https://shopee.com.br/%C3%93leo-Capilar-de-R%C3%ADcino-Ouribel-100ml-i.390304809.9616601247?sp_atk=ecd4d9e7-5557-42ae-983e-057bce1f176d&xptdk=ecd4d9e7-5557-42ae-983e-057bce1f176d",
+  image: "https://a-static.mlcdn.com.br/450x450/oleo-capilar-ricino-ouribel-100-ml/holmescosmeticos/d224effa999511ed80b14201ac185019/d68099ed3129aa0309a8a4a28d18bd04.jpeg",
   url:"https://shope.ee/7pOmoLbuc4",
   longDescription:
     "O Óleo Capilar de Rícino Ouribel, em embalagem de 100 ml, é um produto multifuncional que hidrata, fortalece e estimula o crescimento saudável dos cabelos. Com propriedades nutritivas, proporciona brilho, maciez e prevenção da quebra. Pode ser usado no couro cabeludo e nos fios, massageando suavemente. Um aliado eficaz para a saúde e beleza dos cabelos.",
