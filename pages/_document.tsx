@@ -5,8 +5,8 @@ export default function Document() {
     <Html lang="pt-br">
       <Head>
         <meta
-          name="description"
-          content="The premiere coffee delivery service."
+          name="descrição"
+          content="O melhor para seu cabelo"
         />
       </Head>
       <body>

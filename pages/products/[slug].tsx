@@ -7,7 +7,7 @@ export default function Product({ product }) {
       <div className="mx-auto mt-16 max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
         <div className="mx-auto flex flex-col sm:flex-row">
           <Image
-            alt="coffee"
+            alt="hair"
             className="rounded-lg"
             src={product.image}
             width={560}
@@ -21,7 +21,7 @@ export default function Product({ product }) {
               R$ {product.price}
             </h1>
             <a
-              className="w-80 h-30 bg-orange-500 px-4 py-3 rounded-md p-10 my-5 flex justify-center"
+              className="w-80 h-30 bg-[#553E27] px-4 py-3 rounded-md p-10 my-5 flex justify-center"
               href={product.url}
               target="_blank"
             >
@@ -43,36 +43,97 @@ export default function Product({ product }) {
 
 const product = [
   {
-    id: "lenovo-ideapad-3",
-    name: "Lenovo IdeaPad 3",
-    price: 2999,
-    shortDescription:
-      "notebook focado em produtividade, mas permite aquele alt + tab na epic",
-    image: "/lenovo-ideapad-3.webp",
-    url:"https://amzn.to/3Wew6tI",
+    id: "Soul-Power-Máscara-Babosa-Aloe-Mask",
+    name: "Soul Power Máscara Babosa Aloe Mask",
+    price: 33,
+    shortDescription: "Máscara capilar Soul Power",
+    image: "https://m.media-amazon.com/images/I/61iWgdQJJYL._AC_SX466_.jpg",
+    url: "https://amzn.to/3CwE8F8",
     longDescription:
-      "O Lenovo IdeaPad 3 com processador Ryzen 5 5500U é um notebook potente e versátil, oferecendo desempenho excepcional. Com um processador de seis núcleos, ele lida com multitarefas exigentes. A tela de alta definição proporciona uma experiência visual imersiva. O armazenamento SSD NVMe oferece acesso rápido aos arquivos, enquanto a memória RAM generosa permite uma execução fluida de várias tarefas. Com uma variedade de portas USB e conectividade sem fio, o IdeaPad 3 oferece opções de conectividade versáteis. Seu design compacto o torna perfeito para estudantes, profissionais e usuários domésticos que buscam um notebook confiável e poderoso.",
+      "A Máscara Bomba Forte da Soul Power é uma solução capilar intensiva com biotina, pantenol, queratina e óleos vegetais. Fortalece, revitaliza e estimula o crescimento saudável dos cabelos. Repara danos, deixa os fios mais macios e resistentes. Recomendada para cabelos fracos e quebradiços. Aplicar nos cabelos úmidos, aguardar alguns minutos e enxaguar conforme as instruções do fabricante.",
   },
   {
-    id: "motospeed-ck-61",
-    name: "Motospeed CK 61",
-    price: 250,
-    shortDescription: "Teclado",
-    image: "/motospeed-ck-61.jpeg",
-    url:"https://s.click.aliexpress.com/e/_DkCZGbT",
+    id: "Soul-Power-Masc-Coco-Cacau",
+    name: "Soul Power Masc Coco Cacau",
+    price: 35,
+    shortDescription: "Máscara capilar Soul Power",
+    image: "https://m.media-amazon.com/images/I/61QBeO0EiWL._AC_SX466_.jpg",
+    url: "https://amzn.to/466cI6x",
     longDescription:
-      "O teclado Motospeed CK61 é um teclado mecânico compacto, ideal para jogadores e entusiastas da digitação. Com 61 teclas individuais e mecanismo de teclas mecânicas, proporciona uma resposta tátil precisa e um tempo de resposta rápido. Seu design compacto economiza espaço na mesa, enquanto as teclas retroiluminadas em LED RGB oferecem uma experiência visual incrível. Com suporte a múltiplas camadas de teclas programáveis, você pode personalizar o teclado de acordo com suas preferências. Compatível com diversos sistemas operacionais, o Motospeed CK61 é uma escolha excelente para gamers e digitação de alta performance.",
+      "A Máscara Coco e Cacau da Soul Power combina as propriedades hidratantes do coco e do cacau para nutrir os cabelos. Indicada para cabelos ressecados, danificados ou que precisam de hidratação extra, ela proporciona reparação e suavidade. Contém coco, que repõe a umidade, e cacau, com antioxidantes que protegem os fios. Aplicar nos cabelos molhados, deixar agir por alguns minutos e enxaguar. Resultados podem variar entre pessoas.",
   },
   {
-    id: "delux-m-625",
-    name: "Delux m625",
-    price: 230,
-    shortDescription: "Mouse",
-    image: "/delux-m-625.png",
-    url:"https://s.click.aliexpress.com/e/_DlkUXwz",
+    id: "Creme-Tratamento-400G-Bomba-Force,-Soul-Power",
+    name: "Creme Tratamento 400G Bomba Force, Soul Power",
+    price: 34,
+    shortDescription: "Máscara capilar Soul Power",
+    image: "https://m.media-amazon.com/images/I/414719Ad8SL._AC_SX466_.jpg",
+    url: "https://amzn.to/3Xcm7p3",
     longDescription:
-      "O mouse Delux M625 é um mouse gamer de alta performance, projetado para atender às demandas dos jogadores mais exigentes. Com um sensor óptico de alta precisão, oferece movimentos suaves e precisos, garantindo uma experiência de jogo imersiva. Seus botões programáveis permitem personalizar as configurações de acordo com suas preferências e estilo de jogo. O design ergonômico e confortável do mouse proporciona um manuseio confortável mesmo em longas sessões de jogo. Além disso, o mouse Delux M625 possui iluminação LED RGB personalizável, proporcionando um visual incrível. Com sua conectividade com fio USB de alta velocidade, oferece uma resposta instantânea aos comandos. Se você busca um mouse gamer de qualidade, o Delux M625 é uma excelente opção para melhorar sua experiência de jogo.",
+      "A Máscara de Babosa da Soul Power contém extrato de babosa, também conhecida como aloe vera. Proporciona hidratação profunda, deixando os cabelos mais macios, brilhantes e saudáveis. Indicada para todos os tipos de cabelo, fortalece os fios e previne a quebra. Pode ser usada após o shampoo, aplicada nos fios molhados e deixada agir por alguns minutos antes de enxaguar. Resultados podem variar, siga as instruções do fabricante.",
   },
+
+  {
+    id: "Salon-Line-Creme-Para-Pentear,-Hidratação-Profunda,-1-Kg",
+    name: "Salon Line Creme Para Pentear, Hidratação Profunda, 1 Kg",
+    price: 36,
+    shortDescription: "Creme de pentear Salon Line",
+    image: "https://m.media-amazon.com/images/I/71vBW43bRQL._AC_SY879_.jpg",
+    url: "https://amzn.to/3N6DrY4",
+    longDescription:
+      "O Creme para Pentear Hidratação Profunda da Salon Line é um produto capilar com fórmula de 1 kg desenvolvido para proporcionar uma hidratação intensa aos cabelos. Ele ajuda a nutrir, fortalecer e dar brilho aos fios, deixando-os mais macios, saudáveis e fáceis de pentear. Indicado para cabelos secos, danificados e ressecados, pode ser utilizado diariamente. Sua textura leve não pesa nos cabelos e possui um delicioso aroma.",
+  },
+  {
+    id: "Creme-Para-Pentear-Nutrição-Reparadora,-1-Kg,-Salon-Line",
+    name: "Creme Para Pentear - Nutrição Reparadora, 1 Kg, Salon Line",
+    price: 36,
+    shortDescription: "Creme Para Pentear Salon Line",
+    image: "https://m.media-amazon.com/images/I/71B3MoMXteL._AC_SY879_.jpg",
+    url: "https://amzn.to/3N8Kj7g",
+    longDescription:
+      "O Creme para Pentear Nutrição Reparadora da Salon Line é um produto capilar em embalagem de 1 kg, formulado para proporcionar nutrição e reparação aos cabelos. Com ingredientes poderosos, ele ajuda a fortalecer, hidratar e revitalizar os fios, deixando-os mais saudáveis, macios e brilhantes. Indicado para cabelos danificados e ressecados, pode ser utilizado diariamente. Sua textura leve facilita o pentear e possui uma fragrância agradável.",
+  },
+  {
+    id: "Creme-Para-Pentear-Definição-Intensa-1-Kg-Salon-Line",
+    name: "Creme Para Pentear Definição Intensa - 1 Kg Salon Line",
+    price: 35,
+    shortDescription: "Creme Para Pentear 1 Kg Salon Line",
+    image: "https://m.media-amazon.com/images/I/61PCuuwuL9L._AC_SX466_.jpg",
+    url: "https://amzn.to/3qJPQtj",
+    longDescription:
+      "O Creme para Pentear Definição Intensa da Salon Line, em embalagem de 1 kg, é ideal para cabelos cacheados e ondulados. Proporciona uma definição intensa, controlando o frizz e deixando os cachos e ondas com aspecto natural. Sua fórmula hidratante e de fácil aplicação promove maciez, desembaraço e finalização dos fios. Pode ser usado diariamente, resultando em um visual incrível e definição duradoura.",
+  },
+
+  {
+    id: "Ativador-de-Cachos-Salon-Line-SOS-Cachos-Super-Óleos-300ml",
+    name: "Ativador de Cachos Salon Line SOS Cachos Super Óleos 300ml",
+    price: 19,
+    shortDescription: "Ativador de Cachos Salon Line SOS Cachos",
+    image: "https://m.media-amazon.com/images/I/51HvJAmIYWL._AC_SX466_.jpg",
+    url:"https://amzn.to/3Nymhnw",
+    longDescription:
+      "O Ativador de Cachos Salon Line SOS Cachos Super Óleos, em embalagem de 300ml, é um produto especialmente desenvolvido para cuidar e definir os cachos. Sua fórmula enriquecida com super óleos proporciona hidratação, nutrição e brilho aos fios, controlando o frizz e deixando os cachos mais definidos e saudáveis. Indicado para cabelos cacheados e crespos, o ativador de cachos é de fácil aplicação e pode ser utilizado diariamente. Deixa os cabelos macios, com movimento natural e com um delicioso aroma.",
+  },
+{
+  id: "Creme-Para-Pentear-500-Ml-curly-styling-cream,-Soul-Power",
+  name: "Creme Para Pentear 500 Ml curly styling cream, Soul Power",
+  price: 30,
+  shortDescription: "Creme Para Pentear, Soul Power",
+  image: "https://m.media-amazon.com/images/I/81PVhpmCJkL._AC_SY679_.jpg",
+  url:"https://amzn.to/3CzO94r",
+  longDescription:
+    "O Creme para Pentear Curly Styling Cream da Soul Power, em embalagem de 500 ml, é um produto desenvolvido especialmente para cuidar dos cabelos cacheados. Sua fórmula nutritiva e hidratante define os cachos, reduz o frizz e proporciona maciez aos fios. Ideal para definir e modelar os cachos, facilitando o penteado e promovendo uma finalização duradoura. Pode ser utilizado diariamente, deixando os cabelos com aspecto natural, brilho e movimento. Um aliado perfeito para realçar a beleza dos cachos.",
+  },
+{
+  id: "Óleo-Capilar-de-Rícino-Ouribel-100ml",
+  name: "Óleo Capilar de Rícino Ouribel 100ml",
+  price: 12,
+  shortDescription: "Óleo Capilar de Rícino ",
+  image: "https://shopee.com.br/%C3%93leo-Capilar-de-R%C3%ADcino-Ouribel-100ml-i.390304809.9616601247?sp_atk=ecd4d9e7-5557-42ae-983e-057bce1f176d&xptdk=ecd4d9e7-5557-42ae-983e-057bce1f176d",
+  url:"https://shope.ee/7pOmoLbuc4",
+  longDescription:
+    "O Óleo Capilar de Rícino Ouribel, em embalagem de 100 ml, é um produto multifuncional que hidrata, fortalece e estimula o crescimento saudável dos cabelos. Com propriedades nutritivas, proporciona brilho, maciez e prevenção da quebra. Pode ser usado no couro cabeludo e nos fios, massageando suavemente. Um aliado eficaz para a saúde e beleza dos cabelos.",
+  },
 ];
 
 export async function getStaticProps({ params }) {

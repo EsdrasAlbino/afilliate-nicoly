@@ -12,8 +12,8 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-      <link rel="shortcut icon" href="/favicon.jpeg" />
-        <title>O Recanto da Tecnologia</title>
+      <link rel="shortcut icon" href="/favicon.png" />
+        <title>Nicoly Albino</title>
       </Head>
       <main className={`${montserrat.variable} font-sans`}>
         <Component {...pageProps} />

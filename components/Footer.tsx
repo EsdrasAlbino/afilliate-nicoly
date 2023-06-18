@@ -23,7 +23,7 @@ export default function Footer() {
 
 const social = [
   {
-    href: "https://www.instagram.com/recantec/",
+    href: "https://www.instagram.com/nicoly.camilli/",
     className: "font-medium text-orange-600",
     alt: "instagram",
     src: "https://cdn-icons-png.flaticon.com/512/174/174855.png",
@@ -31,7 +31,7 @@ const social = [
     height: 18,
   },
   {
-    href: "https://www.tiktok.com/@recantotecnologic",
+    href: "https://www.tiktok.com/@n.albino08",
     className: "font-medium text-orange-600",
     alt: "tiktok",
     src: "https://cdn-icons-png.flaticon.com/512/3046/3046125.png",
@@ -39,7 +39,7 @@ const social = [
     height: 18,
   },
   {
-    href: "https://www.youtube.com/@RecantoTecnologico",
+    href: "https://www.youtube.com/@nicolyalbino",
     className: "font-medium text-orange-600",
     alt: "youtube",
     src: "https://cdn-icons-png.flaticon.com/512/3128/3128307.png",
