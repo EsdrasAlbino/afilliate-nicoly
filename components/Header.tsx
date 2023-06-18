@@ -9,6 +9,7 @@ export default function Header({ scrollHandler }) {
         <div className="relative shadow-xl sm:overflow-hidden">
           <div className="absolute inset-0">
             <Image
+              alt="hair"
               priority
               fill
               className="h-full w-full object-cover"
