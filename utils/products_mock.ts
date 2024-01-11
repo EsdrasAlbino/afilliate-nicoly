@@ -1,45 +1,3 @@
-import Image from "next/image";
-
-export default function Product({ product }) {
-  return (
-    <div className="flex h-screen flex-col justify-between">
-      <div className="mx-auto mt-16 max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-        <div className="mx-auto flex flex-col sm:flex-row">
-          <Image
-            alt="hair"
-            className="rounded-lg"
-            src={product.image}
-            width={560}
-            height={640}
-          />
-          <div className="mt-10 flex flex-col sm:mt-0 sm:ml-10">
-            <h1 className="mt-1 text-4xl font-bold uppercase text-gray-900 sm:text-5xl sm:tracking-tight lg:text-5xl">
-              {product.name}
-            </h1>
-            {/* <h1 className="mt-3 text-4xl font-bold text-gray-500 sm:text-3xl sm:tracking-tight lg:text-3xl">
-              R$ {product.price}
-            </h1> */}
-            <a
-              className="w-80 h-30 bg-[#553E27] px-4 py-3 rounded-md p-10 my-5 flex justify-center"
-              href={product.url}
-              target="_blank"
-            >
-              <div>
-                <p className="text-white">EU QUERO!</p>
-              </div>
-            </a>
-
-            <div className="mt-10 mb-5 border-t border-gray-200 pt-10 font-bold">
-              Descrição
-            </div>
-            <p className="max-w-xl">{product.longDescription}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
 export const product = [
   {
     id: "Máscara Capilar Bio Extratus Shitake Plus 250g",
@@ -236,30 +194,3 @@ export const product = [
       "Pinga! Patauá & Moringa Pré e Pós Shampoo 50ml.\nÉ um óleo multiuso pré e pós shampoo. Intensamente hidratante, nutre o cabelo desidratado, proporciona brilho instantâneo e evita o indesejado frizz. Sua textura com toque seco e não oleoso é absorvida instantaneamente pelos fios.\n\nPinga! Cenoura & Oliva Pré e Pós Sol 50ml contém uma mistura de óleos vegetais que combinados deixam os cabelos macios e radiantes. Perfeito como um produto pré e pós-sol ou para uso diário, sua textura glamorosa é absorvida instantaneamente. Toque seco e perfume maravilhoso. \n\nPinga! Açaí & Pracaxi Pré e Pós Química 50ml.\nÉ um tratamento profundamente nutritivo que pode ser usado como protetor da cor e dos danos ambientais ou para reparar pontas duplas. Formulado com óleos vegetais orgânicos, previne o desbotamento da cor, reduz o frizz e confere brilho intenso. Sua textura glamourosa é absorvida instantaneamente. Toque seco e perfume maravilhoso",
   },
 ];
-
-
-export async function getStaticProps({ params }) {
-  console.log("params", params.slug);
-  const searchResults = product.filter((p) => p.id === params.slug);
-  const coffeeProduct = searchResults[0];
-
-  return {
-    props: {
-      product: coffeeProduct,
-    },
-  };
-}
-
-export async function getStaticPaths() {
-  const coffeeProducts = product;
-  let fullPaths = [];
-
-  for (let product of coffeeProducts) {
-    fullPaths.push({ params: { slug: product.id } });
-  }
-
-  return {
-    paths: fullPaths,
-    fallback: "blocking",
-  };
-}
