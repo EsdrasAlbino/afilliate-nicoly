@@ -47,7 +47,8 @@ export const product = [
     price: 0,
     shortDescription:
       "Máscara de reconstrução nutritiva,  Bio Extratus Skitake plus 250g",
-    image: " https://m.media-amazon.com/images/I/519PRzohPkL.AC_SY450.jpg",
+    image:
+      " https://imgs.search.brave.com/4QzgKAW8XEfwFjFlaejEV9f-ZqEJxdji3AfuvoWjkQ8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pa2Vz/YWtpLnZ0ZXhhc3Nl/dHMuY29tL2FycXVp/dm9zL2lkcy8yMjMy/OTgtODAwLWF1dG8_/dj02MzY4ODcxNzM0/MzYzNzAwMDAmd2lk/dGg9ODAwJmhlaWdo/dD1hdXRvJmFzcGVj/dD10cnVl.jpeg",
     url: " https://amzn.to/47xHAN2",
     longDescription:
       " Hidrata profundamente os fios, oferecendo os principais nutrientes essenciais à restauração da fibra capilar. Recupera a vitalidade e dá brilho intenso ao cabelo. pH 4,5. Modo de usar: Após lavar o cabelo, aplique a máscara massageando mecha a mecha. Deixe agir por 10 minutos. Para intensificar o tratamento, use touca de hidratação. Enxágue",
@@ -92,7 +93,7 @@ export const product = [
     shortDescription:
       "O Gel Cera Ouribel promove uma fixação forte e duradoura.",
     image:
-      "https://down-br.img.susercontent.com/file/br-50009109-f55da3ddbe6b5ad87756b6a2ab770e00",
+      "https://imgs.search.brave.com/KDmjNtcJdHMG3gImy4APretyq4Nxb7g2woa_xMYW5Ac/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9OUV9OUF85/ODQ1NjItTUxCNDQx/OTY5MDI1MzlfMTEy/MDIwLU8ud2VicA",
     url: "https://shope.ee/7fAXV6Qb22",
     longDescription:
       "O produto facilita o penteado e mantém seus cabelos fixos e modelados o dia todo, resiste à umidade e não resseca os cabelos. Gel Cera Ouribel é formulado com D-Pantenol, um precursor da Vitamina B5, que auxilia no crescimento e ajuda a formar fios mais fortes e espessos. O produto atua também no combate à queda.",
@@ -124,7 +125,7 @@ export const product = [
     price: 0,
     shortDescription: "Kit Elseve Shampoo 375mL + Condicionador 170mL váriados",
     image:
-      "https://down-br.img.susercontent.com/file/br-50009109-f55da3ddbe6b5ad87756b6a2ab770e00",
+      "https://imgs.search.brave.com/5nT_V320eY9E9z8YtwjorwCdjbsKwoVWFU8g-srJ1Vc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NzFLSjJWWXRQR0wu/anBn",
     url: "https://shope.ee/602JWdHzl2",
     longDescription:
       "1. *Kit Elseve Reparação Total 5:*\n- Indicado para cabelos danificados.\n- Enriquecido com Cicatri-Ceramida para combater danos desde os primeiros sinais.\n- Reduz fios quebradiços, proporciona brilho e flexibilidade.\n- Remove pontas duplas e recupera a estrutura dos fios.\n- Dica: Lave com água fria para mais brilho.\n\n2. *Kit Elseve Óleo Extraordinário Nutrição:*\n- Ideal para cabelos secos, opacos e sem brilho.\n- Textura ultrafina e leve.\n- Enriquecido com Micro-Óleos de Flores Preciosas.\n- Reconstrói a fibra capilar, proporcionando nutrição, leveza e brilho.\n\n3. *Kit Elseve Hidra Hialurônico:*\n- Preenche e retém hidratação profunda na fibra capilar.\n- Shampoo promove limpeza profunda e hidratação.\n- Condicionador desembaraça, controla o frizz e sela as cutículas.\n\n4. *Kit Elseve Longo dos Sonhos:*\n- Ideal para cabelos compridos e danificados.\n- Shampoo Salvador e Condicionador Desata Nós.\n- Contém Queratina Vegetal, Vitaminas e Óleo de Rícino.\n- Preenche, recupera, deixa o cabelo macio, brilhante e evita pontas duplas.\n\n5. *Kit Elseve Liso dos Sonhos:*\n- Para cabelos lisos e longos.\n- Fórmula com Queratina Vegetal, Manteiga de Cac",

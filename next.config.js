@@ -7,6 +7,7 @@ module.exports = {
       "m.media-amazon.com",
       "shopee.com.br",
       "down-br.img.susercontent.com",
+      "imgs.search.brave.com",
     ],
   },
 };
