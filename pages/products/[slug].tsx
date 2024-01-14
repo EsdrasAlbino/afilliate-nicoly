@@ -42,6 +42,14 @@ export default function Product({ product }) {
 
 export const product = [
   {
+    id: "protetor labial isacare",
+    name: "Protetor Labial Isacare",
+    price: 0,
+    shortDescription: "O hidratante Labial Isacare, foi desenvolvido para pessoas modernas que desejam manter sempre os lábios macios, hidratados e protegidos por muito mais tempo.",
+    image: "https://m.media-amazon.com/images/I/61HF-p9wo9L._AC_UF1000,1000_QL80_.jpg",
+    url: "https://shope.ee/4AatClDV3R",
+    longDescription:"O hidratante Labial Isacare, foi desenvolvido para pessoas modernas que desejam manter sempre os lábios macios, hidratados e protegidos por muito mais tempo. Aqueles lábios rachados, soltando peles, extra ressecado e as vezes até sangrando, não irá te afetar mais, pois com a fórmula exclusiva do Hidratante Labial Isacare, proporciona proteção contra os raios solares, prevenção contra ressecamento e deixa hidratado por muito mais tempo." },
+  {
     id: "Máscara Capilar Bio Extratus Shitake Plus 250g",
     name: "Máscara Capilar Bio Extratus Shitake Plus 250g",
     price: 0,
