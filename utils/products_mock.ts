@@ -1,5 +1,16 @@
 export const product = [
   {
+    id: "Gel para cravos e espinhas acnezil 20g",
+    name: "Gel para cravos e espinhas acnezil 20g",
+    price: 0,
+    shortDescription:
+      "Acnezil penetra profundamente na pele para combater e eliminar a acne",
+    image: "https://m.media-amazon.com/images/I/61HILJY+PCL._AC_SX425_.jpg",
+    url: "https://shope.ee/602b3JA5PU",
+    longDescription:
+      " Acnezil Gel Para Cravos e Espinhas 20g\n\nGraças aos seus grânulos antibacterianos de peróxido de benzoíla, Acnezil penetra profundamente na pele para combater e eliminar a acne, além de combater e prevenir o aparecimento de cravos e espinhas. Promove a esfoliação da pele.",
+  },
+  {
     id: "protetor labial isacare",
     name: "Protetor Labial Isacare",
     price: 0,

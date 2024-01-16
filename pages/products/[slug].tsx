@@ -42,13 +42,28 @@ export default function Product({ product }) {
 
 export const product = [
   {
+    id: "Gel para cravos e espinhas acnezil 20g",
+    name: "Gel para cravos e espinhas acnezil 20g",
+    price: 0,
+    shortDescription:
+      "Acnezil penetra profundamente na pele para combater e eliminar a acne",
+    image: "https://m.media-amazon.com/images/I/61HILJY+PCL._AC_SX425_.jpg",
+    url: "https://shope.ee/602b3JA5PU",
+    longDescription:
+      " Acnezil Gel Para Cravos e Espinhas 20g\n\nGraças aos seus grânulos antibacterianos de peróxido de benzoíla, Acnezil penetra profundamente na pele para combater e eliminar a acne, além de combater e prevenir o aparecimento de cravos e espinhas. Promove a esfoliação da pele.",
+  },
+  {
     id: "protetor labial isacare",
     name: "Protetor Labial Isacare",
     price: 0,
-    shortDescription: "O hidratante Labial Isacare, foi desenvolvido para pessoas modernas que desejam manter sempre os lábios macios, hidratados e protegidos por muito mais tempo.",
-    image: "https://m.media-amazon.com/images/I/61HF-p9wo9L._AC_UF1000,1000_QL80_.jpg",
+    shortDescription:
+      "O hidratante Labial Isacare, foi desenvolvido para pessoas modernas que desejam manter sempre os lábios macios, hidratados e protegidos por muito mais tempo.",
+    image:
+      "https://m.media-amazon.com/images/I/61HF-p9wo9L._AC_UF1000,1000_QL80_.jpg",
     url: "https://shope.ee/4AatClDV3R",
-    longDescription:"O hidratante Labial Isacare, foi desenvolvido para pessoas modernas que desejam manter sempre os lábios macios, hidratados e protegidos por muito mais tempo. Aqueles lábios rachados, soltando peles, extra ressecado e as vezes até sangrando, não irá te afetar mais, pois com a fórmula exclusiva do Hidratante Labial Isacare, proporciona proteção contra os raios solares, prevenção contra ressecamento e deixa hidratado por muito mais tempo." },
+    longDescription:
+      "O hidratante Labial Isacare, foi desenvolvido para pessoas modernas que desejam manter sempre os lábios macios, hidratados e protegidos por muito mais tempo. Aqueles lábios rachados, soltando peles, extra ressecado e as vezes até sangrando, não irá te afetar mais, pois com a fórmula exclusiva do Hidratante Labial Isacare, proporciona proteção contra os raios solares, prevenção contra ressecamento e deixa hidratado por muito mais tempo.",
+  },
   {
     id: "Máscara Capilar Bio Extratus Shitake Plus 250g",
     name: "Máscara Capilar Bio Extratus Shitake Plus 250g",
@@ -245,7 +260,6 @@ export const product = [
       "Pinga! Patauá & Moringa Pré e Pós Shampoo 50ml.\nÉ um óleo multiuso pré e pós shampoo. Intensamente hidratante, nutre o cabelo desidratado, proporciona brilho instantâneo e evita o indesejado frizz. Sua textura com toque seco e não oleoso é absorvida instantaneamente pelos fios.\n\nPinga! Cenoura & Oliva Pré e Pós Sol 50ml contém uma mistura de óleos vegetais que combinados deixam os cabelos macios e radiantes. Perfeito como um produto pré e pós-sol ou para uso diário, sua textura glamorosa é absorvida instantaneamente. Toque seco e perfume maravilhoso. \n\nPinga! Açaí & Pracaxi Pré e Pós Química 50ml.\nÉ um tratamento profundamente nutritivo que pode ser usado como protetor da cor e dos danos ambientais ou para reparar pontas duplas. Formulado com óleos vegetais orgânicos, previne o desbotamento da cor, reduz o frizz e confere brilho intenso. Sua textura glamourosa é absorvida instantaneamente. Toque seco e perfume maravilhoso",
   },
 ];
-
 
 export async function getStaticProps({ params }) {
   console.log("params", params.slug);
